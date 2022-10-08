@@ -1,0 +1,74 @@
+[
+    {
+    "_id": "623853b2614ad5aba311fdd1",
+    "index": 0,
+    "price": 799,
+    "picture": "https://i.ibb.co/VqXvZkT/smart-home-air-conditioner.png",
+    "name": "Smart Air Conditioner",
+    "category": "Home Appliance"
+    },
+    {
+    "_id": "623853b2578e9e6ad1ae0dd5",
+    "index": 1,
+    "picture": "https://i.ibb.co/T06BR9Q/smart-home-fryer.png",
+    "name": "Smart Air Fryer",
+    "price": 279,
+    "category": "Home Appliance"
+    },
+    {
+    "_id": "623853b21fb149d2ee7b76c7",
+    "index": 2,
+    "picture": "https://i.ibb.co/hMcDzrD/smart-home-fan.png",
+    "name": "Smart Home Fan",
+    "price": 78,
+    "category": "Home Appliance"
+    },
+    {
+    "_id": "623853b2e91c8de578c9245e",
+    "index": 3,
+    "picture": "https://i.ibb.co/0tm85Zv/smart-home-key.png",
+    "name": "Smart Home Key",
+    "price": 51,
+    "category": "Home Appliance"
+    },
+    {
+    "_id": "623853b2239582e48409ccc6",
+    "index": 4,
+    "price": 34,
+    "picture": "https://i.ibb.co/Y00ZW5L/smart-home-pet-feeder.png",
+    "name": "Smart Pet Feeder",
+    "category": "Home Appliance"
+    },
+    {
+    "_id": "623853b2cdda0d5bc294f791",
+    "index": 5,
+    "picture": "https://i.ibb.co/8mFGRSc/smart-home-vacuum.png",
+    "name": "Robot Vacuum Cleaner",
+    "price": 141,
+    "category": "Home Appliance"
+    },
+    {
+    "_id": "623853b2736f19fd4eb8d44a",
+    "index": 6,
+    "price": 141,
+    "picture": "https://i.ibb.co/q08X1Jc/smart-home-solar.png",
+    "name": "Smart Solar Panel",
+    "category": "Home Appliance"
+    },
+    {
+    "_id": "623853b2736f19fd4eb8d44b",
+    "index": 7,
+    "price": 35,
+    "picture": "https://i.ibb.co/FVCVRhT/smart-home-lamp.png",
+    "name": "Smart Table Lamp",
+    "category": "Home Appliance"
+    },
+    {
+    "_id": "623853b2736f19fd4eb8d44c",
+    "index": 8,
+    "price": 65,
+    "picture": "https://i.ibb.co/MhHjJ5F/smart-home-temperature.png",
+    "name": "Room Temperature Meter",
+    "category": "Home Appliance"
+    }
+    ]
