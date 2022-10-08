@@ -5,12 +5,14 @@ import Shop from "./../components/Shop";
 import Cart from "./../components/Cart";
 import ErrorPage from "../components/ErrorPage";
 import About from "./../components/About";
+import { productsAndCartLoader } from "../loaders/getCart&ProductData";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
+    loader: productsAndCartLoader,
     children: [
       {
         path: "/",
@@ -23,10 +25,6 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop />,
-        loader: () =>
-          fetch(
-            "https://raw.githubusercontent.com/shakilahmedatik/smart-home/main/public/products.json"
-          ),
       },
       {
         path: "/cart",

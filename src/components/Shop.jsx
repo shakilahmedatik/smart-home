@@ -1,15 +1,14 @@
-import React, { useState } from "react";
-import { useLoaderData } from "react-router-dom";
-import { addToDb, deleteShoppingCart, getStoredCart } from "../utils/fakeDB";
+import React, { useContext } from "react";
+import { addToDb } from "../utils/fakeDB";
 import Product from "./Product";
+import { CartContext, ProductContext } from "./Root";
+import { toast } from "react-toastify";
 
 const Shop = () => {
-  const loaderData = useLoaderData();
-  const products = JSON.parse(loaderData);
-  const [cart, setCart] = useState([]);
+  const [products] = useContext(ProductContext);
+  const [cart, setCart] = useContext(CartContext);
 
   const handleAddToCart = (selectedProduct) => {
-    console.log(selectedProduct);
     let newCart = [];
     const exists = cart.find((product) => product.id === selectedProduct.id);
     if (!exists) {
@@ -23,6 +22,7 @@ const Shop = () => {
 
     setCart(newCart);
     addToDb(selectedProduct.id);
+    toast.success("Product Added!", { autoClose: 500 });
   };
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
