@@ -1,11 +1,9 @@
 import React from "react";
+import { RouterProvider } from "react-router-dom";
+import router from "./utils/routes";
 
 function App() {
-  return (
-    <div className="App">
-      <h1 className="text-red-800">Welcome to Smart Home</h1>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
