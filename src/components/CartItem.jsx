@@ -20,8 +20,8 @@ const CartItem = ({ product, handleRemoveItem }) => {
             </div>
             <div className="text-right">
               <p className="text-lg font-semibold">{price}$</p>
-              <p className="text-sm line-through text-gray-600">
-                {price + 15}$
+              <p className="text-sm text-gray-600">
+                Total: {price * quantity}$
               </p>
             </div>
           </div>
